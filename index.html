@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khalid Voyage | Explorez le monde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">KH</div>
+        <nav class="nav">
+            <a href="#accueil">Accueil</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#reservation">Réservation</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="overlay">
+            <h1>Explorez le monde avec <span>Khalid Voyage</span></h1>
+            <p>Des expériences de voyage inoubliables organisées avec soin, confort et style.</p>
+            <a href="#reservation" class="btn">Réserver maintenant</a>
+        </div>
+    </section>
+
+    <section id="destinations" class="section">
+        <h2>Nos Destinations Populaires</h2>
+        <div class="cards">
+            <div class="card"><img src="img/maroc.jpg">
+                <h3>Maroc</h3>
+                <p>Circuit tout compris avec guide, hébergement 4*, vols inclus.</p>
+            </div>
+            <div class="card"><img src="img/turquie.jpg">
+                <h3>Turquie</h3>
+                <p>Circuit tout compris avec guide, hébergement 4*, vols inclus.</p>
+            </div>
+            <div class="card"><img src="img/thailande.jpg">
+                <h3>Thaïlande</h3>
+                <p>Circuit tout compris avec guide, hébergement 4*, vols inclus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservation" class="section">
+        <h2>Formulaire de Réservation</h2>
+        <form action="https://formsubmit.co/ahmedbrahmi6363@gmail.com" method="POST" class="form">
+            <input type="text" name="nom" placeholder="Nom complet" required />
+            <input type="email" name="email" placeholder="Adresse email" required />
+            <select name="destination" required>
+        <option value="">Choisir une destination</option>
+        <option value="maroc">Maroc</option>
+        <option value="turquie">Turquie</option>
+        <option value="thailande">Thaïlande</option>
+      </select>
+            <input type="date" name="date" required />
+            <button type="submit">Réserver</button>
+        </form>
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contactez-nous</h2>
+        <form action="https://formsubmit.co/ahmedbrahmi6363@gmail.com" method="POST" class="form">
+            <input type="text" name="nom" placeholder="Nom" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div class="info">
+            <p><strong>Email :</strong> contact@khalidvoyage.com</p>
+            <p><strong>Téléphone :</strong> +212 6 00 00 00 00</p>
+            <div class="map">Carte Google Maps</div>
+            <div class="logo-big">Logo KH</div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Khalid Voyage. Tous droits réservés.
+    </footer>
+
+</body>
+
+</html>
